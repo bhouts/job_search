@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}
+
+
+\usepackage{multicol}
+\usepackage{color}
+
+\usepackage[top=0.5in, left=0.5in, bottom=0.0in, right=.8in]{geometry}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\pagestyle{empty}
+
+\newcommand*{\pagebar}[1][\linewidth]{\rule[0.5ex]{#1}{1mm}}
+\newcommand*{\titlebar}[1][5.28cm]{\rule[.8ex]{#1}{2mm}}
+
+
+\begin{document}
+%%%Top 
+\begin{changemargin}{4.5cm}{0cm} 
+\Huge\textbf{Brian \color{blue}{Houts}}\\
+\vspace{-1mm}
+\normalsize
+\\
+\color{blue}{1804 Missin St. Apt. 204
+\\ 
+Santa Cruz, CA 95060
+\vspace{.5cm}\\
+\textbf{T}\hspace{2.5mm} (415) 336-5589
+\vspace{.5cm}\\
+\textbf{E}\hspace{3mm} bhouts@gmail.com
+\vspace{.5cm}\\
+\textbf{W}\hspace{1.5mm} bhouts.com}
+\end{changemargin} 
+\vspace{-6mm}
+
+%%%breakpage
+\begin{changemargin}{7mm}{0cm} 
+\pagebar
+\end{changemargin} 
+
+\Large
+%%%tabular for whole resume sections
+\begin{tabular}{p{3.3cm}  p{13cm}} 
+
+%%%Education
+\textbf{Education} & University of California, Santa Cruz \hspace{2.5cm} \normalsize Dec 2016 \Large \hspace{2cm}
+B.A. Network and Digital Technology
+\\
+%%%Coursework
+\color{blue}{\textbf{Coursework}} & \vspace{-4.6mm}
+	\begin{multicols}{2}
+				Computer Networking \newline
+				Technical Writing \newline
+				Computer Algorithms \newline
+				Web Appliactions \newline
+				Computer Architecture \newline
+				Software Engineering 
+	\end{multicols}
+\\
+%%%Awards
+\textbf{Awards}  & Dean's List
+\\
+%%%Programming Languages
+\color{blue}{\textbf{Languages}}  & \vspace{-4.6mm}
+	\begin{multicols}{2}
+				Python \hspace{5mm} \normalsize 2 years \newline \Large
+				Java \hspace{1.12cm} \normalsize 3 years \newline \Large
+				C  \hspace{1.73cm} \normalsize 4 years \newline \Large
+				HTML/CSS  \hspace{4mm} \normalsize 4 years \newline \Large
+				JavaScript \hspace{8.3mm} \normalsize 1 year \newline \Large
+	\end{multicols}
+
+\\
+%%%Software
+\textbf{Software}  & \vspace{-7.7mm}
+	\begin{multicols}{2}
+				Web2Py \newline
+				Android Studio \newline
+				\LaTeX \newline
+				Git \newline
+				Microsoft Office 
+	\end{multicols}
+\\
+%%%Projects
+\color{blue}{\textbf{Projects}}  & \vspace{0mm}
+		TaskPlanner \hspace{3.51mm} \normalsize 
+			Android Application deveolped using Android Studio \hspace*{4.08cm} and agile development 				with a group of 5 \newline\Large
+		Polaris \hspace{1.7cm} \normalsize
+			Web Application to query online star catalogs developed \hspace*{4.08cm}with Agile 								delopment using Web2Py \newline\Large
+		bhouts.com \hspace{7mm} \normalsize 
+			Online Portfolio developed using Web2Py and served via \hspace*{4.08cm}												PythonAnywhere.com\newline\Large
+			
+\\
+\vspace{-1cm}
+
+%%%Experience
+\textbf{Experience}  &  \vspace{-1cm}
+Market Manager, Rodoni Farms \hspace{3cm}\normalsize Oct 2013-Present\newline\normalsize 
+Represent Rodoni Farms at farmers markets in Santa Cruz and Monterey counties. Resposible for analyzing past market trends, establishing and maintaining relationships with clientile and chefs, distributing and selling vegatables and keeping records.
+ \Large \vspace{2mm}
+\newline 
+Aquatic Specialist, City of San Rafael \hspace{2.2cm} \normalsize Summer 2012\newline\normalsize
+
+
+
+
+\end{tabular}
+
+
+
+
+\end{document}
